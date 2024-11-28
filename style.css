@@ -12,11 +12,11 @@ body {
 #roulette-container {
   position: relative;
   margin: 50px auto;
-  width: 400px;
-  height: 400px;
+  width: 400px; /* 设置宽度 */
+  height: 400px; /* 设置高度 */
   background: url('images/roulette-background.png') no-repeat center center;
-  background-size: cover;
-  border-radius: 50%;
+  background-size: cover; /* 让图片适应轮盘大小 */
+  border-radius: 50%; /* 圆形轮盘 */
 }
 
 /* 指针样式 */
@@ -33,16 +33,7 @@ body {
   z-index: 2;
 }
 
-/* 动态轮盘样式 */
-#roulette-wheel {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  animation: spin 0s linear infinite;
-}
-
-/* 控制按钮样式 */
+/* 按钮样式 */
 #actions {
   margin-top: 20px;
 }
